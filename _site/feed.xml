@@ -8,7 +8,7 @@
 		
 			<item>
 				<title>Demo Post</title>
-				<description>&lt;h2 id=&quot;demo-header&quot;&gt;Demo header&lt;/h2&gt;
+				<description>&lt;h2 id=&quot;multi-language-header-ting-vit-&quot;&gt;Multi Language header: Tiếng Việt, 日本語&lt;/h2&gt;
 
 &lt;p&gt;Demo content.&lt;/p&gt;
 
@@ -31,6 +31,9 @@
 &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;h2 id=&quot;section&quot;&gt;日本語テンプレート&lt;/h2&gt;
+
+&lt;p&gt;これは日本語だ。&lt;/p&gt;
 </description>
 				<pubDate>Sat, 09 Jul 2016 00:00:00 +0900</pubDate>
 				<link>http://lab.ene.im/post/demo/</link>
