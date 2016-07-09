@@ -1,10 +1,10 @@
 # Jekyll Defaults
-title: blueface
-description: A small and simple site I made to test out Jekyll.
+title: eneim
+description: the simple, the best.
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "http://localhost:3000"
-github: http://github.com/tnguyen/blueface
+url: "http://lab.ene.im"
+github: http://github.com/eneim
 highlighter: rouge
 markdown: kramdown
 permalink: /post/:title/
