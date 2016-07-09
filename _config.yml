@@ -1,0 +1,21 @@
+# Jekyll Defaults
+title: eneim
+description: the simple, the best.
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "http://lab.ene.im"
+github: http://github.com/eneim
+highlighter: rouge
+markdown: kramdown
+permalink: /post/:title/
+paginate: 4
+gems: [jekyll-paginate]
+paginate_path: "/page:num"
+rss_path: /feed.xml
+navigation:
+- text: About
+  url: /about/
+- text: Archives
+  url: /archives/
+- text: Tags
+  url: /tags/
