@@ -1,18 +1,16 @@
 ---
 layout: default
-title: About blueface
+title: About Nam Nguyen a.k.a eneim
 ---
 
-blueface is a minimalist Jekyll theme. It is responsive, generates JSON and RSS feeds on each build, and can be easily extended. It uses your system fonts alongside Open Sans, Droid Sans and Raleway from Google Fonts. Oh, and it has support for tags too.
+Nam is an Android developer.
 
-> It supports blockquotes, too.
+> the simple, the best.
 
-## blueface on the Internet
+## Nam on the Internet
 
-* [blueface][github] on GitHub (Source Code)
-* [nolsigan][nolsigan] nolsigan.github.io
-* [rjsteckel][rjsteckel] data, beer, and stats
+* [Nam][github] on GitHub
+* [Nam][instagram] on Instagram
 
-[github]: https://github.com/tnguyen/blueface/
-[nolsigan]: http://nolsigan.github.io
-[rjsteckel]: http://rjsteckel.github.io
+[github]: https://github.com/eneim
+[instagram]: https://www.instagram.com/eneim
