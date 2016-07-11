@@ -4,8 +4,8 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,500,100,300italic);
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-@import url(cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css);
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+@import "//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 @import url(http://fonts.googleapis.com/css?family=Raleway:800);
