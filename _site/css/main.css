@@ -1,8 +1,11 @@
-/* @override 
+/* @override
 	http://localhost:4000/css/main.css */
 
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,500,100,300italic);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+@import "//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 @import url(http://fonts.googleapis.com/css?family=Raleway:800);
@@ -12,7 +15,7 @@
 }
 body {
     color: #141515;
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-family: 'Noto Sans', 'Noto Sans JP', -apple-system, Hack, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     text-rendering: optimizeLegibility;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -23,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-family: 'Noto Sans', 'Noto Sans JP', -apple-system, Hack, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     font-weight: 400;
     color: #315572;
 }
@@ -56,7 +59,7 @@ header h1 a:hover {
     margin-right: auto;
 	padding-right: 32px;
 	padding-left: 32px;
-	width: 640px;
+	max-width: 640px;
 }
 #current {
     background-color: #b91414;
@@ -85,7 +88,7 @@ nav ul li a:hover {
     background-color: #000000;
 }
 .heading {
-    font: 1.5em Raleway, Helvetica;
+    font: 1.5em Noto Sans, Raleway, Helvetica;
     text-transform: uppercase;
     margin-top: 1.2em;
     margin-bottom: 1.3em;
@@ -117,10 +120,10 @@ h6 {
     font-style: italic;
 }
 p {
-    font-size: 0.8em;
+    font-size: 1.0em;
     margin-bottom: 15px;
     margin-top: 12px;
-    line-height: 1.7em;
+    line-height: 1.5em;
 }
 p strong {
     font-weight: 500;
@@ -239,13 +242,13 @@ pre {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	font-size: 0.7em;
+	font-size: 0.9em;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
 pre,
 code {
-	font-family: "Droid Sans Mono", "Monaco", "Courier New", Courier, mono;
+	font-family: "Hack", "Droid Sans Mono", "Monaco", "Courier New", Courier, mono;
 }
 code {
     -webkit-border-radius: 1px;
@@ -254,7 +257,7 @@ code {
     position: relative;
     color: #494949;
     background-color: #f7f7f7;
-    padding: 0.32px 0.5em;
+    /* padding: 0.32px 0.5em; */
 	font-size: 0.9em;
 }
 #archive h3,
