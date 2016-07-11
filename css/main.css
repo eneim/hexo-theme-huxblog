@@ -198,7 +198,8 @@ a:hover {
     width: 100%
 }
 article p a {
-    border-bottom: 1px solid #e4edf9 font-weight: normal;
+    border-bottom: 1px solid #e4edf9;
+    font-weight: normal;
     font-style: normal;
 }
 .badge {
