@@ -72,7 +72,9 @@ nav {
 	margin-bottom: -20px;
 	margin-top: -15px;
 }
+
 nav ul li {
+    margin-left: 25px;
     display: inline;
     color: #9f9f9f;
 	font-size: 105%;
