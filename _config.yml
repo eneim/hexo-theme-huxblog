@@ -141,7 +141,5 @@ theme: huxblog
 deploy:
   type: git
   repo: https://github.com/eneim/eneim.github.io
-  # SSH: git@github.com:eneim/eneim.github.io.git
-  # repo: https://:x-oauth-basic@github.com/eneim/eneim.github.io.git
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
