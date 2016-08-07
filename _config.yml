@@ -142,4 +142,4 @@ deploy:
   type: git
   repo: https://github.com/eneim/eneim.github.io
   branch: master
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ssTZD') }}"
