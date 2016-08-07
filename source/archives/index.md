@@ -1,6 +1,6 @@
 ---
 layout: "archives"
 title: "Archives"
-description: "Hey, this is Archives."
-header-img: "img/tag-bg.jpg"
+description: "---"
+header-img: "" # "img/tag-bg.jpg"
 ---

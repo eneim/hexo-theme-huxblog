@@ -8,26 +8,35 @@ layout: layout
 
 <!-- Post Header -->
 <style type="text/css">
-    header.intro-header{
-        background-image: url('<%= page["header-img"] || config.root + config["header-img"] %>')
+    .header_overlay {
+        background-color: rgba(10, 10, 10, 0.55);
+        width: 100%;
+        height: 100%;
     }
+
+    header.intro-header {
+        background-image: url('<%= page["header-img"] || config.root + config["header-img"] %>');
+    }
+
 </style>
 <header class="intro-header" >
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <div class="tags">
-                        <% page.tags.forEach(function(tag){ %>
-                          <a class="tag" href="<%= config.root %>tags/#<%= tag.name %>" title="<%= tag.name %>"><%= tag.name %></a>
-                        <% }) %>
+    <div class="header_overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <div class="tags">
+                            <% page.tags.forEach(function(tag){ %>
+                              <a class="tag" href="<%= config.root %>tags/#<%= tag.name %>" title="<%= tag.name %>"><%= tag.name %></a>
+                            <% }) %>
+                        </div>
+                        <h1><%= page.title %></h1>
+                        <h2 class="subheading"><%= page.subtitle || "" %></h2>
+                        <span class="meta">
+                            Posted by <%- page.author || config.author %> on
+                            <%= page.date.format(config.date_format) %>
+                        </span>
                     </div>
-                    <h1><%= page.title %></h1>
-                    <h2 class="subheading"><%= page.subtitle || "" %></h2>
-                    <span class="meta">
-                        Posted by <%- page.author || config.author %> on
-                        <%= page.date.format(config.date_format) %>
-                    </span>
                 </div>
             </div>
         </div>
@@ -214,7 +223,7 @@ layout: layout
 </script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+    async("https://cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
           placement: 'right',
