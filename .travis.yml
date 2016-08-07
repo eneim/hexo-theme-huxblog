@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - "6"
+branches:
+  only:
+  - master
+before_install:
+- npm install -g hexo
+- npm install
+install:
+- hexo generate
+before_script:
+- git config --global user.name 'eneim'
+- git config --global user.email 'mr.nguyenhoainam@gmail.com'
+- sed -i'' "s~https://github.com/eneim/eneim.github.io~https://${GH_TOKEN}:x-oauth-basic@github.com/eneim/eneim.github.io.git~" _config.yml
+script:
+- hexo clean && hexo deploy --silent
+env:
+  global:
+    secure: KdeFvxT/fe2kFJ9g26Q85KMl9kHRY+YdDxANVnauhM3TcBChVM3FANl0RKNUnNBxlAeqCopZaSrRhk3VzgZv8yTlXzg1y0HNwUyrurXrUs78n8n2HiEu0jCDUR16TnZO/PB6UOHWfXQjgGKURsAniRp1gQIqnF1cCQNRKpIv+KyhlA2X8ArJTWZ8MsDEUlz2AvW39H+/iBezfCwe2lisaOIcsJ7C7u8CO0iYroxB+vflNgHb/cSMqK9V5cvYvwubSw80M3FIFg2QPpT2fHA10z1d5PoyJWfZ3xiChHM3+n+aXnLVXzP0chW5R/DgxiM40Z/0NXX5hzVbfyNYIIA77qW/nIHbj3k4c7iQ0uS63JoUuKGFqiOEzQogojZQeKQCtFUpwy4F57lRmA0vAM/f5cfEENOxb9qfZ1OgAZmtVKjU6v2tdpK6dOfLzwubgrwNaoHin6k73IC6WfL2GA4HQrpEu0vEe8bH1zCIOB9cVZBMhGYtLn/cQ8+DLcma4K8A8R8unFJQ4by+WJdG9dev6Gjs5UZCLmp3/D6EucmDU1j8vd2MOCQn19GutV7lvYG1JVYrSaMedEY6OXfXSRyM4IVuWJ2Np08mvjsdR+jNtP+Yl3Z+rTJ45ylUlUP9blHk5TFSPDckMTxa9wXF+p901U3LFn4neZQyAgN8K6cfgI4=
